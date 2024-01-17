@@ -1,0 +1,47 @@
+.app {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+.btn-group {
+  /* text-align: center; */
+  margin: 8px 0 16px 0;
+}
+
+.btn-group > button {
+  margin-right: 8px;
+}
+
+.textarea-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.textarea-wrapper>div {
+  flex: 1;
+}
+
+.textarea-wrapper>div>textarea {
+  border-color: #cdcccc;
+  border-radius: 4px;
+  width: 100%;
+  resize: none;
+  height: 200px;
+  overflow: hidden;
+}
+
+.textarea-wrapper>div>textarea:focus {
+  outline: none;
+
+}
+
+.trrr {
+  font-family: 'test-font';
+}
+
+.terminal {
+  /* height: 200px; */
+}
